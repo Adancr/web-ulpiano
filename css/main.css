@@ -8,6 +8,85 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*------------------------------
+Estilos top logo + direccion
+-------------------------------*/
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.logo img {
+  max-width: 220px;
+}
+
+.child-header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  align-items: center;
+  margin: auto;
+}
+
+.main-date-email,
+.btn-addres,
+.btn-phone,
+a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+
+.text-date {
+  position: relative;
+  top: 18px;
+}
+
+.title-icon-date {
+  font-size: 1rem;
+  line-height: 0;
+  font-weight: bold;
+}
+
+.btn-email::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f0e0";
+  position: relative;
+  left: -9.1px;
+  top: 0.1rem;
+  transition: left 0.3s ease;
+  font-size: 2.5rem;
+}
+
+.btn-address::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f3c5";
+  position: relative;
+  left: -9.1px;
+  top: 0.1rem;
+  transition: left 0.3s ease;
+  font-size: 2.5rem;
+}
+
+.btn-phone::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f879";
+  position: relative;
+  left: -9.1px;
+  top: 0.1rem;
+  transition: left 0.3s ease;
+  font-size: 2.5rem;
 }
 
 /*------------------------------
@@ -33,7 +112,7 @@ Estilos generales btn
   color: #000;
   background-color: #fff;
   border: gray;
-  
+
 }
 
 
@@ -44,7 +123,7 @@ Estilos generales btn
 }
 
 .btn-primary:focus {
-  background-color: #C17614 ;
+  background-color: #C17614;
   box-shadow: 0 0 0 0.2rem rgba(250, 169, 38, 0.5) !important;
 }
 
@@ -55,7 +134,7 @@ Estilos generales btn
   position: relative;
   left: 0.9px;
   top: 0.1rem;
-  transition:left 0.3s ease;
+  transition: left 0.3s ease;
 }
 
 .btn-primary:hover:after,
@@ -74,18 +153,24 @@ Estilos generales btn
   position: absolute;
   left: 50%;
   top: 0;
-  transform: skew(45deg,0);
+  transform: skew(45deg, 0);
   transition: all 0.3s ease;
 }
+
 .btn-primary:hover:before {
   width: 130%;
   left: -20px;
-  
+
 }
 
 /*------------------------------
 Estilos para animación slider
 -------------------------------*/
+header,
+footer {
+  overflow: hidden;
+}
+
 .swiper-slide {
   height: 34rem;
   /*450px*/
@@ -105,6 +190,7 @@ Estilos para animación slider
   top: 0;
   opacity: 0.4;
 }
+
 /* color icon prev y next  */
 .swiper-button-prev,
 .swiper-button-next {
@@ -121,7 +207,7 @@ Estilos para animación slider
 Estilos footer
 -------------------------------*/
 footer {
-  background-color: #343a40 ;
+  background-color: #343a40;
   color: #fff;
 }
 
@@ -133,19 +219,33 @@ footer {
     color: #fff;
     background-size: cover;
     background-position: center center;
-}
-h1 {
-  font-size: 1.5rem;
-}
-h2 {
-  font-size: 1.2rem;
-}
+  }
 
-.btn {
-  margin-top: 1rem;
-  border-radius: 0.7rem;
-  font-weight: bold;
-  padding: 0.6rem 1rem;
-  font-size: 1rem;
-}
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+
+  .main-date-email,
+  .main-date-address,
+  .main-date-phone {
+    display: none;
+  }
+
+  /* central logo en movil  */
+  .child-header {
+    display: flex;
+    justify-content: center;
+  }
 }
