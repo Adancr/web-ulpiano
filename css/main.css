@@ -1,0 +1,107 @@
+.row>* {
+  border: 1px solid lightgreen;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------------------------
+Estilos generales btn
+-------------------------------*/
+.btn {
+  border-radius: 0.7rem;
+  font-weight: bold;
+  padding: 0.6rem 1rem;
+  font-size: 1.4rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #C17614;
+  border-color: #C17614;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-primary:hover {
+  color: #000;
+  background-color: #fff;
+  border: gray;
+  
+}
+
+
+.btn-primary:active {
+  color: #fff !important;
+  background-color: #C17614 !important;
+  border-color: #C17614 !important;
+}
+
+.btn-primary:focus {
+  background-color: #C17614 ;
+  box-shadow: 0 0 0 0.2rem rgba(250, 169, 38, 0.5) !important;
+}
+
+.btn-primary:after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f138";
+  position: relative;
+  left: 0.9px;
+  top: 0.1rem;
+  transition:left 0.3s ease;
+}
+
+.btn-primary:hover:after,
+.btn-primary:active:after,
+.btn-primary:focus:after {
+  left: 0.3rem;
+}
+
+/* Insertar caja blanaca del boton principal */
+.btn-primary:before {
+  content: "";
+  z-index: -1;
+  width: 0;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: skew(45deg,0);
+  transition: all 0.3s ease;
+}
+.btn-primary:hover:before {
+  width: 130%;
+  left: -20px;
+  
+}
+
+/*------------------------------
+Estilos para animación slider
+-------------------------------*/
+.swiper-slide {
+  height: 34rem;
+  /*450px*/
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
+.swiper-slide::before {
+  content: "";
+  position: absolute;
+  background: #000;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0.4;
+}
