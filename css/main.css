@@ -3,7 +3,7 @@
 }
 
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
@@ -115,4 +115,37 @@ Estilos para animación slider
 /* color icon paginacion  */
 .swiper-pagination-bullet {
   background-color: #C17614;
+}
+
+/*------------------------------
+Estilos footer
+-------------------------------*/
+footer {
+  background-color: #343a40 ;
+  color: #fff;
+}
+
+/* media moviles */
+@media (max-width: 576px) {
+  .swiper-slide {
+    height: 20rem;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center center;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  border-radius: 0.7rem;
+  font-weight: bold;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+}
 }
