@@ -210,6 +210,10 @@ footer {
   background-color: #C17614;
 }
 
+.box-shadow {
+  border-bottom: 1px solid #C17614;
+  padding-bottom: 15px;
+}
 /*------------------------------
 Estilos formulario
 -------------------------------*/
