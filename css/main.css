@@ -163,6 +163,14 @@ Estilos generales btn
 
 }
 
+/* estilos img especialidades  */
+
+#especialidades img {
+  border-radius: 10px;
+    box-shadow: 7px 9px 5px -2px rgba(0,0,0,0.2);
+}
+}
+
 /*------------------------------
 Estilos para animación slider
 -------------------------------*/
@@ -202,6 +210,39 @@ footer {
   background-color: #C17614;
 }
 
+/*------------------------------
+Estilos formulario
+-------------------------------*/
+.form-consulta {
+  background: #eee;
+    padding: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.campo-form {
+  width: 400px;
+    height: 36px;
+    margin: 2px 0 6px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    /* border: 0; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+}
+
+textarea {
+  min-height: 150px!important;
+}
+
+.alert {
+  text-align: center;
+    padding: 15px;
+    background: #C17614;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
 /*------------------------------
 Estilos footer
 -------------------------------*/
