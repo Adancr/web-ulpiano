@@ -249,6 +249,7 @@ Estilos footer
 footer {
   background-color: #343a40;
   color: #fff;
+  overflow: hidden;
 }
 
 /* media moviles */
@@ -287,5 +288,9 @@ footer {
   .child-header {
     display: flex;
     justify-content: center;
+  }
+
+  .campo-form {
+    width: 300px;
   }
 }
