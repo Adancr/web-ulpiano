@@ -11,6 +11,9 @@ body {
 
 }
 
+.logo img {
+  max-height: 75px;
+}
 /* icono social */
 
 .icon-social {
@@ -88,6 +91,7 @@ a:hover {
   max-width: 1140px;
   align-items: center;
   margin: auto;
+  padding: 0.4rem 0;
 }
 
 .main-date-email,
