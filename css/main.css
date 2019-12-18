@@ -26,9 +26,9 @@ body {
   content: "\f39e";
   position: relative;
   transition: left 0.3s ease;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 10px;
-  padding: 1rem;
+  padding: .8rem;
   color: #fff;
 }
 .in span::before {
@@ -37,9 +37,9 @@ body {
   content: "\f0e1";
   position: relative;
   transition: left 0.3s ease;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 10px;
-  padding: 1rem;
+  padding: .8rem;
   color: #fff;
 }
 .twitter span::before {
@@ -48,9 +48,9 @@ body {
   content: "\f099";
   position: relative;
   transition: left 0.3s ease;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 10px;
-  padding: 1rem;
+  padding: .8rem;
   color: #fff;
 }
 
