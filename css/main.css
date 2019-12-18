@@ -11,6 +11,61 @@ body {
 
 }
 
+/* icono social */
+
+.icon-social {
+  position: fixed;
+  top: 32%;
+  z-index: 10;
+  right: 1px;
+}
+
+.fb span::before {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: "\f39e";
+  position: relative;
+  transition: left 0.3s ease;
+  font-size: 2rem;
+  width: 10px;
+  padding: 1rem;
+  color: #fff;
+}
+.in span::before {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: "\f0e1";
+  position: relative;
+  transition: left 0.3s ease;
+  font-size: 2rem;
+  width: 10px;
+  padding: 1rem;
+  color: #fff;
+}
+.twitter span::before {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: "\f099";
+  position: relative;
+  transition: left 0.3s ease;
+  font-size: 2rem;
+  width: 10px;
+  padding: 1rem;
+  color: #fff;
+}
+
+.twitter span:hover,
+.in span:hover,
+.twitter span:hover {
+  left: 2px;
+}
+
+
+.fb,.in,.twitter {
+  background-color: #343a40;
+  border: 1px solid #C17614 ;
+  margin: 1px;
+}
 /*------------------------------
 Estilos top logo + direccion
 -------------------------------*/
@@ -167,7 +222,7 @@ Estilos generales btn
 
 #especialidades img {
   border-radius: 10px;
-    box-shadow: 7px 9px 5px -2px rgba(0,0,0,0.2);
+  box-shadow: 7px 9px 5px -2px rgba(0, 0, 0, 0.2);
 }
 }
 
@@ -213,40 +268,48 @@ footer {
 .box-shadow {
   border-bottom: 1px solid #C17614;
   padding-bottom: 15px;
+  font-size: ;
 }
+
 /*------------------------------
 Estilos formulario
 -------------------------------*/
 .form-consulta {
   background: #eee;
-    padding: 25px;
-    font-family: 'Source Sans Pro', sans-serif;
+  padding: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .campo-form {
   width: 400px;
-    height: 36px;
-    margin: 2px 0 6px;
-    padding-left: 6px;
-    box-sizing: border-box;
-    border-radius: 3px;
-    /* border: 0; */
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1em;
+  height: 36px;
+  margin: 2px 0 6px;
+  padding-left: 6px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  /* border: 0; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
 }
 
 textarea {
-  min-height: 150px!important;
+  min-height: 150px !important;
 }
 
 .alert {
   text-align: center;
-    padding: 15px;
-    background: #C17614;
-    color: #fff;
-    margin-bottom: 10px;
-    display: none;
+  padding: 15px;
+  background: #C17614;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
 }
+
+/*------------------------------
+suppot WhtatsApp
+-------------------------------*/
+
+
 /*------------------------------
 Estilos footer
 -------------------------------*/
