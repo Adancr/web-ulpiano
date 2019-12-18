@@ -279,9 +279,12 @@ Estilos formulario
   padding: 25px;
   font-family: 'Source Sans Pro', sans-serif;
 }
+.form-consulta label{
+  width: 100%;
+}
 
 .campo-form {
-  width: 400px;
+  width: 100%;
   height: 36px;
   margin: 2px 0 6px;
   padding-left: 6px;
@@ -306,7 +309,7 @@ textarea {
 }
 
 /*------------------------------
-suppot WhtatsApp
+suppot WhhatsApp
 -------------------------------*/
 /* * {
   margin: 0;
@@ -346,9 +349,6 @@ a {
   color: #22C15E;
 }
 
-
-
-
 .main-box-wasap {
    --main-color: #22C15E;
   --main-color-dark: #1fa752;
@@ -356,8 +356,8 @@ a {
   position: fixed;
   bottom: 2%;
   left: 1%;
+  z-index: 10;
 }
-
 
 .box-list-chat-wasap {
   background-color: #fff;
@@ -377,9 +377,6 @@ a {
   text-align: center;
   background-color: var(--main-color);
 }
-
-
-
 
 /*  */
 .btn-close-wasap {
@@ -508,7 +505,7 @@ footer {
     justify-content: center;
   }
 
-  .campo-form {
+  /* .campo-form {
     width: 300px;
-  }
+  } */
 }
